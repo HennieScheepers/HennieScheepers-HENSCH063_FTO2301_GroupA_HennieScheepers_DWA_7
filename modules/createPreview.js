@@ -1,7 +1,6 @@
-import { authors, genres } from "./data.js";
-import { books, BOOKS_PER_PAGE } from "./data.js";
+import { authors } from "./data.js";
+import { BOOKS_PER_PAGE } from "./data.js";
 import { handlePreviewClick } from "./previewClick.js";
-import { handleClickAversion } from "./clickAversion.js";
 import { searchButton } from "./scripts.js";
 import {
   setAttributes,

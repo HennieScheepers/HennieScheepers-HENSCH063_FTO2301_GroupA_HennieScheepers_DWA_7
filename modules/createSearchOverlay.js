@@ -21,7 +21,7 @@ export const createSearchOverlay = () => {
   optionGenres.setAttribute("value", "any");
   optionGenres.innerHTML = "All Genres";
   genreSelector.appendChild(optionGenres);
-
+  // Can make a function to handle these loops and assignements
   for (const i in authors) {
     const author = {
       authorName: authors[i],
